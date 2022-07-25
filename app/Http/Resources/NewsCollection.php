@@ -2,6 +2,7 @@
 
 namespace App\Http\Resources;
 
+use App\Models\News;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
 class NewsCollection extends ResourceCollection
@@ -14,6 +15,8 @@ class NewsCollection extends ResourceCollection
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return [
+            'data' => $this->collection,
+        ];
     }
 }
