@@ -1,9 +1,9 @@
 const isNews = (news) =>{
     return news.map((data, i) => {
         return (
-            <div key={i} className="card w-full lg:w-96 bg-base-100 shadow-xl">
+        <div key={i} className="card w-full lg:w-96 bg-base-100 shadow-xl">
             <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-                <div className="card-body">
+            <div className="card-body">
                     <h2 className="card-title">
                     {data.title}
                         <div className="badge badge-secondary">NEW</div>
