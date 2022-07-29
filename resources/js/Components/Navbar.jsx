@@ -11,7 +11,7 @@ const Navbar = ({ user }) =>{
   </div>
   <div className="flex-none gap-2">
     <div className="form-control">
-      <input type="text" placeholder="Search" className="input input-bordered" />
+      {/* <input type="text" placeholder="Search" className="input input-bordered" /> */}
     </div>
     <div className="dropdown dropdown-end">
       <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
@@ -32,7 +32,7 @@ const Navbar = ({ user }) =>{
             <span className="badge">New</span>
           </Link>
         </li>
-        <li><Link>Settings</Link></li>
+        {/* <li><Link>Settings</Link></li> */}
         <li><Link href={route('logout')} method='post' as='button'>Logout</Link></li>
         </>
         }

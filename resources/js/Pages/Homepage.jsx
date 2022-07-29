@@ -4,8 +4,7 @@ import Navbar from '@/Components/Navbar';
 import NewsLists from '@/Components/Homepage/NewsLists';
 import Paginator from '@/Components/Homepage/Paginator';
 
-export default function Homepage(props) {
-    console.log("props : ", props)
+export default function Homepage(props) {   
     return (
         <div className='min-h-screen bg-slate-50'>
             <Head title={props.title} />
