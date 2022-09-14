@@ -32,13 +32,23 @@ DB_DATABASE=news_portal
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+### Initial commands
+```
+composer install
+npm install
+```
+### Database Seeder
+`php artisan db:seed`
 
 ### Run the migrations
 `php artisan migrate`
 
 ### Start the server
 
-`php artisan serve`
+```
+php artisan serve
+npm run dev
+```
 
 The server is located at [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
